@@ -285,7 +285,7 @@ class namepy():
         if current == False:
             try:
                 skin_hash_list.remove('javascript:void(0)') # just have to get rid of something that stays in the code idk y
-            except ValueError:
+            except:
                 pass
 
         for s in skin_hash_list:
