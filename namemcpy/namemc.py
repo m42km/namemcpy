@@ -283,10 +283,7 @@ class namepy():
                     skin_hash_list.append(skin_hashes['href'])
 
         if current == False:
-            try:
-                skin_hash_list.remove('javascript:void(0)') # just have to get rid of something that stays in the code idk y
-            except:
-                pass
+            skin_hash_list.remove('javascript:void(0)') # just have to get rid of something that stays in the code idk y
 
         for s in skin_hash_list:
             final = s.lstrip('/skin/')
